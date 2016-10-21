@@ -1,0 +1,33 @@
+//laboratoy fizzbuzz
+//abao jade ella
+//oct 17, 2016
+#include<iostream>
+#include<fstream>
+
+using namespace std;
+
+main()
+{
+	ifstream fizzbuzz("input.txt");
+	int num;
+	while(fizzbuzz>>num)
+	{	
+		if((num%3==0)&&(num%5==0))
+		{
+			cout<<"\nFizzBuzz";
+		}
+		else if(num%5==0)
+		{
+			cout<<"\nBuzz";
+		}
+		else if(num%3==0)
+		{
+			cout<<"\nFizz";
+		}
+		else
+		{
+			cout<<num<< endl;	
+		}
+	}
+	return 0;
+}
