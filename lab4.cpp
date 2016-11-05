@@ -1,3 +1,5 @@
+//lab 4
+// abao jade ella c.
 #include<iostream>
 using namespace std;
 
