@@ -6,28 +6,22 @@
 
 using namespace std;
 
-main()
-{
-	ifstream fizzbuzz("input.txt");
+main(){
+	ifstream fizzbuzz ("input.txt");
 	int num;
-	while(fizzbuzz>>num)
-	{	
-		if((num%3==0)&&(num%5==0))
-		{
-			cout<<"\nFizzBuzz";
+	while (fizzbuzz>>num){	
+		if ((num%3==0) && (num%5==0)){
+			cout <<"\nFizzBuzz";
 		}
-		else if(num%5==0)
-		{
+		else if (num%5==0){
 			cout<<"\nBuzz";
 		}
-		else if(num%3==0)
-		{
-			cout<<"\nFizz";
+		else if (num%3==0){
+			cout <<"\nFizz";
 		}
-		else
-		{
-			cout<<num<< endl;	
+		else{
+			cout <<num << endl;	
 		}
 	}
-	return 0;
+return 0;
 }
