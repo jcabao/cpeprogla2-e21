@@ -1,6 +1,7 @@
-//lab 4
+//laboratory 4
 // abao jade ella c.
-#include<iostream>
+#include <iostream>
+
 using namespace std;
 
 void aste();
@@ -125,6 +126,3 @@ char* mystrrev(char* r){
 	}
 	return r;
 }
-//abao jade ella c
-//cpeprogla2 e21
-//lab4
