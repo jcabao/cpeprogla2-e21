@@ -1,3 +1,5 @@
+//laboratory collatz
+//abao jade ella c.
 #include<iostream>
 #include<fstream>
 
