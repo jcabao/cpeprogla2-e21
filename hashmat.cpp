@@ -1,3 +1,5 @@
+//laboratory hashmath
+//abao jade ella c.
 #include<iostream>
 #include<algorithm>
 using namespace std;
@@ -9,4 +11,3 @@ int main()
  
  return 0;
 }
-
